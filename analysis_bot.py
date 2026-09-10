@@ -14,7 +14,7 @@ from beembase.operations import Comment
 from beem.transactionbuilder import TransactionBuilder
 
 # --- AYARLAR ---
-STEEM_NODE = "https://api.steemit.com"
+STEEM_NODE = "https://steemd.privex.io"
 USERNAME = os.getenv("STEEM_USERNAME")
 POSTING_KEY = os.getenv("STEEM_POSTING_KEY")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
