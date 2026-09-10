@@ -1,0 +1,5 @@
+beem
+requests
+pandas
+mplfinance
+ta
