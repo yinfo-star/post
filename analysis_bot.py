@@ -136,7 +136,7 @@ def publish_post(title, body):
     try:
         steem = Steem(node=STEEM_NODE, nobroadcast=False)
         permlink = f"steem-analysis-{time.strftime('%Y-%m-%d')}"
-        json_metadata = json.dumps({"tags": TAGS, "app": "steem-analysis-bot/1.0"})
+        json_metadata = json.dumps({"tags": TAGS, "app": "steemit/0.2"})
         
         print(" Publishing to Steem...")
         
