@@ -21,7 +21,7 @@ GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 GITHUB_REPO = os.getenv("GITHUB_REPOSITORY")
 
 MAIN_TAG = "steem"
-TAGS = ["steem", "crypto", "trading", "chart", "technicalanalysis"]
+TAGS = ["steem", "crypto", "steemit", "trading", "chart", "technicalanalysis"]
 CHART_FILENAME = f"steem_chart_{time.strftime('%Y-%m-%d')}.png"
 
 def get_steem_data():
